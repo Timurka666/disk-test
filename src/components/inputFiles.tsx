@@ -13,8 +13,6 @@ export function FileInput() {
         else if (e.target.files?.length && e.target.files?.length > 0) {
             for (let i=0; i < e.target.files.length; i++) {
                 pushAFile(e.target.files.item(i) as File);
-                console.log(e.target.files.item(i))
-                console.log(files[i])
             }
         }
     }
