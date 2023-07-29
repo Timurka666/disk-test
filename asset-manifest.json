@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/disk-test/static/css/main.9b56b86a.css",
+    "main.js": "/disk-test/static/js/main.ebbdb667.js",
+    "index.html": "/disk-test/index.html",
+    "main.9b56b86a.css.map": "/disk-test/static/css/main.9b56b86a.css.map",
+    "main.ebbdb667.js.map": "/disk-test/static/js/main.ebbdb667.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b56b86a.css",
+    "static/js/main.ebbdb667.js"
+  ]
+}
