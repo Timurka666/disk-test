@@ -2,7 +2,9 @@
   "name": "yandex-disk-test",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://timurka666.github.io/disk-test/",
   "dependencies": {
+    "@reduxjs/toolkit": "^1.9.5",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -10,8 +12,11 @@
     "@types/node": "^16.18.39",
     "@types/react": "^18.2.17",
     "@types/react-dom": "^18.2.7",
+    "js-cookie": "^3.0.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-redux": "^8.1.1",
+    "react-router-dom": "^6.14.2",
     "react-scripts": "5.0.1",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
@@ -35,9 +40,13 @@
       "not op_mini all"
     ],
     "development": [
-      "last 1 chrome version",
+      "last 3 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/js-cookie": "^3.0.3",
+    "gh-pages": "^5.0.0"
   }
 }

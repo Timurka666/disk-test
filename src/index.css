@@ -11,3 +11,65 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+button.btn {
+  display: block;
+  width: 12rem;
+  height: 3rem;
+  margin: 0 auto;
+  font-size: larger;
+  font-weight: bolder;
+  background-color: rgb(255, 196, 35);
+  border-radius: 2rem;
+  border: none;
+  transition: all;
+  transition-duration: 0.5s;
+}
+
+button.btn:hover {
+  cursor: pointer;
+  background-color: rgb(221, 170, 31);
+  transition: all;
+  transition-duration: 0.5s;
+}
+
+.login-form {
+  display: flex;
+  height: 100vh;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#fileInput {
+  display: none;
+}
+
+.fileInput {
+  display: block;
+  margin: 0 auto;
+  width: 20rem;
+  height: 15rem;
+  border-style: dashed;
+  border-color: rgb(255, 196, 35);
+  border-width: 6px;
+}
+
+label.fileInput div.text {
+  text-align: center;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+label.fileInput {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.upload-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100vh;
+}
